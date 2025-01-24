@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "class1"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = "^0.115.6"
+sqlmodel = "^0.0.22"
+uvicorn = {extras = ["standard"], version = "^0.34.0"}
+psycopg = {extras = ["binary"], version = "^3.2.4"}
+python-multipart = "^0.0.20"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

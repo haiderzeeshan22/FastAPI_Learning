@@ -1,0 +1,1 @@
+to hash password we install passlib[bcrypt] and bcrypt infact is algorithm used for password hashing and hashing mean one way

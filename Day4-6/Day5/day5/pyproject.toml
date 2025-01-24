@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "day5"
+version = "0.1.0"
+description = ""
+authors = ["haiderzeeshan22 <shani.pcr2244@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlmodel = "^0.0.22"
+fastapi = "^0.115.6"
+psycopg = {extras = ["binary"], version = "^3.2.3"}
+uvicorn = "^0.32.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
