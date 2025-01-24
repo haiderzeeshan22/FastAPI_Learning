@@ -15,7 +15,7 @@ from auth import authenticate_user, EXP_TIME,create_access_token
 async def lifespan(app:FastAPI):
     print("Creating talbes")
     create_tables_and_db()
-    print("tables Created")
+    print("tables has been Created")
     yield
 
 
